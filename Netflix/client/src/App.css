@@ -1,0 +1,238 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* background: #ffffff; */
+}
+body{
+  width: 100%;
+  float: left;
+  height: 100%;
+  
+}
+.card{
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin-bottom: 202px;
+}
+.card > img{
+  width: auto;
+  position: absolute;
+}
+ video{
+  width: 400px;
+  position: inherit;
+  margin: 15px 112px;
+}
+#toast-container{
+  color: #f1f1f1;
+  /* position: relative; */
+}
+.toast{
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  background: #101010;
+  padding: 10px;
+  border-radius: 2px;
+  text-transform: capitalize;
+  width: auto;
+}
+.home_section{
+  width: 100%;
+  height: 100%;
+  float: left;
+  background: #101010;
+}
+.section{
+  width: 100%;
+  height: 100%;
+  float: left;
+  /* background: #000000eb; */
+}
+.section h4{
+  color: #f1f1f1;
+  font-weight: 300;
+  text-transform: capitalize;
+  letter-spacing: 0.2px;
+  font-size: 20px;
+}
+.movie_card_container{
+  display: flex;
+  overflow-x: auto;
+  
+}
+.movie_card_container::-webkit-scrollbar{
+  width: 10px;
+  color: #f1f1f1;
+  display: block;
+}
+.movie_section{
+  width: 100%;
+  height: 100%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s ease-in-out;
+  margin-right: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgb(0 0 0 / 26%);
+}
+.movie_section:hover{
+  transform: scale(1.05);
+  box-sizing: border-box;
+}
+.movie_section > .poster_img{
+  width: auto;
+  object-fit: contain;
+  max-height: 250px;
+}
+.movie_section h2{
+  font-size: 12px;
+  padding: 7px;
+  font-weight: 600;
+}
+
+.signup_section{
+  width: 100%;
+  float: left;
+  height: auto;
+}
+.signup_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.menu{
+  display: flex;
+  box-shadow: 2px 2px 20px #dbdbc9;
+  width: 70%;
+  margin: 0 auto;
+}
+.left_menu{
+  width: 50%;
+  height: 80vh;
+  float: left;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+.left_menu_body{
+  display: block;
+  float: left;
+}
+.left_menu_body input{
+  width: 100%;
+  border: 1px solid #c9c0c0;
+  margin: 10px 0px;
+  padding: 10px 10px;
+  outline: none;
+}
+.signup_btn{
+  width: 100%;
+  float: left;
+  height: auto;
+  border: 1px solid #22a6b3;
+  background: #22a6b3;
+  color: #fff;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none !important;
+  margin-bottom: 20px;
+}
+.right_menu{
+  width: 50%;
+  float: right;
+  height: auto;
+  background-image: url('./images/4.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.right_menu .overlay{
+  background: linear-gradient(to top, #08d0e29c, rgb(0 0 0 / 73%));
+  height: 80vh;
+  width: 100%;
+}
+.links{
+  text-decoration: none;
+  float: right;
+  color: #000;
+
+}
+
+input[type="file"]{
+    display: none;
+}
+/* label{
+  border: 1px solid #22a6b3;
+  background: #22a6b3;
+  color: #fff;
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+} */
+.form_section{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ min-height: 100vh;
+}
+form{
+  width: 100%;
+  height: auto;
+  /* padding: 50px; */
+}
+.form_group{
+  width: 100%;
+  float: left;
+  height: auto;
+  margin: 10px 0px;
+}
+.form_group label{
+  width: 100%;
+  float: left;
+  height: auto;
+  text-transform: capitalize;
+}
+.form_group input{
+  width: 100%;
+  height: 40px;
+  outline: none;
+  padding-left: 20px;
+}
+.form_group p{
+  color: #d63031;
+  font-weight: 500;
+}
+.submit_btn{
+  width: 100%;
+  padding: 10px 0px ;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: #22a6b3;
+  color: #fff;
+}
+.netflix_logo{
+  width: 90px;
+  height: auto;
+  float: left;
+}
+.navbar-nav{
+  margin-left: auto;
+}
+.login_btn{
+  display: block;
+  float: right;
+  background: #0d6efd;
+  color: #fff !important;
+  padding: 8px 18px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 41%);;
+}
